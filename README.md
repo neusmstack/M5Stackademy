@@ -51,7 +51,8 @@ Projects developed by **Neus Morla Arias** using M5Stack controllers and educati
 
 Basic arithmetic project to practice operations with integers using M5Stack devices.
 
-️➡️ [Project Folder](1_Positive_and_Negative_Whole_numbers/README.md)
+➡️ [Project Folder](STEAM_Projects/1_Positive_and_Negative_Whole_numbers/README.md)
+
 
 ---
 
@@ -59,7 +60,7 @@ Basic arithmetic project to practice operations with integers using M5Stack devi
 
 Automatic irrigation system using M5Stack Atom S3 and moisture sensors. It controls watering cycles for plants with an OLED display for status monitoring.
 
-️➡️ [Project Folder](2_Smart_watering_S3/README.md)
+️➡️ [Project Folder](STEAM_Projects/2_Smart_watering_S3/README.md)
 
 ---
 
@@ -67,7 +68,7 @@ Automatic irrigation system using M5Stack Atom S3 and moisture sensors. It contr
 
 Interactive digital goniometer using Atom S3R.
 
-️➡️ [Project Folder](3_Electrogoniometer/README.md)
+️➡️ [Project Folder](STEAM_Projects/3_Electrogoniometer/README.md)
 
 ---
 
@@ -76,13 +77,13 @@ Interactive digital goniometer using Atom S3R.
 Educational generator of 3D solids from 2D shapes.
 
 - **V0 - Color Sensor (UiFlow 2.0)**\
-  ➡️ [Version V0](4_Generator_of_revolution_solids/V0_ColorSensor/README.md)
+  ➡️ [Version V0](STEAM_Projects/4_Generator_of_revolution_solids/V0_ColorSensor/README.md)
 
 - **V1 - RFID + Motor + Glass**\
-  ➡️ [Version V1](4_Generator_of_revolution_solids/V1_RFID_Motor/README.md)
+  ➡️ [Version V1](STEAM_Projects/4_Generator_of_revolution_solids/V1_RFID_Motor/README.md)
 
 - **V2 - RFID + Motor + 3D Fan (Upcoming)**\
-  ➡️ [Version V2](4_Generator_of_revolution_solids/V2_RFID_Motor_Fan/README.md)
+  ➡️ [Version V2](STEAM_Projects/4_Generator_of_revolution_solids/V2_RFID_Motor_Fan/README.md)
 
 ---
 
@@ -90,7 +91,7 @@ Educational generator of 3D solids from 2D shapes.
 
 FM radio tuner controlled with M5Stack.
 
-️➡️ [Project Folder](5_Radio_FM/README.md)
+️➡️ [Project Folder](STEAM_Projects/5_Radio_FM/README.md)
 
 ---
 
