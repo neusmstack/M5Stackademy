@@ -1,0 +1,80 @@
+# 📻 FM Radio - AutoScan & Manual Mode (ByteButton Control)
+
+Educational FM radio project using M5Stack Fire, TEA5767, ByteButton unit and Angle unit. This version allows both digital autoscan and manual tuning, with memory storage.
+
+---
+
+## 🎛️ Features
+
+- **Manual Mode (Angle Unit Control)**
+  - Adjust frequency precisely using the Angle Unit (Potentiometer).
+  - Real-time frequency display with MHz.
+  - Saved stations displayed on screen.
+
+- **AutoScan Mode (ByteButton Control)**
+  - Navigate frequencies using ByteButton:
+    - **Button 0** → Forward scan (+0.05 MHz)
+    - **Button 7** → Backward scan (-0.05 MHz)
+    - **Button 1** → Save station (maximum 5 memories)
+    - **Buttons 2 to 6** → Access saved stations directly
+  - LED indicators:
+    - 🔴 **Red** in Manual Mode
+    - 🔵 **Blue** in AutoScan Mode
+    - ⚫ **Off** in Menu Mode
+  - Saved stations displayed with associated button number.
+
+- **Efficient PaHUB I2C communication.**
+- **Noise reduction** for smoother audio scanning.
+
+---
+
+## ⚙️ Required Hardware
+
+- M5Stack Fire (ESP32)
+- TEA5767 FM Receiver Module
+- ByteButton Unit (on PaHUB channel 5)
+- Angle Unit (on Port B)
+- PaHUB Unit (on Port A)
+
+---
+
+## 📂 Folder Structure
+
+```plaintext
+AutoScan_Manual_Mode/
+├── main.py
+├── pymakr.conf
+└── blocks/               # (Optional) Original UiFlow files (.m5f2), ignored in sync
+🔧 pymakr.conf Example
+{
+    "address": "/dev/cu.wchusbserialXXXXX",
+    "sync_folder": "AutoScan_Manual_Mode",
+    "main_file": "main.py",
+    "py_ignore": [
+        "pymakr.conf",
+        ".vscode",
+        "*.pyc",
+        "*.m5f2",
+        ".DS_Store",
+        "blocks/"
+    ],
+    "open_on_start": true
+}
+## 🛑 Important notes:
+
+Stations are stored in RAM only (not persistent after shutdown).
+
+ByteButton fully replaces physical controller buttons.
+
+LED feedback indicates current operating mode.
+
+Scanning stops automatically when memory is full (5 stations).
+
+Efficient I2C channel management (select/release).
+
+## 🏷️ License
+MIT License.
+
+Project by Neus Morla Arias
+https://www.hackster.io/neusmorlaarias/m5stackademy-c8ef6f
+neusmstack@gmail.com
